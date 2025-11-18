@@ -139,7 +139,7 @@ export default function Home() {
                   year: "2024",
                   title: "EcoBoost App",
                   category: "Mobile App",
-                  description: "Student-facing reporting system with teacher-side processing for addressing bullying incidents.",
+                  description: "Environmental awareness app for students to track and promote sustainable actions.",
                   tech: ["Flutter", "Firebase", "UI/UX Design"],
                 },
                 {
@@ -268,10 +268,10 @@ export default function Home() {
 
                 <div className="space-y-4">
                   <Link
-                    href="mailto:your.email@example.com"
+                    href="mailto:kenzie.ahnaffirdaus@gmail.com?subject=Portfolio%20Inquiry%20%E2%80%93%20Kenzie%20Ahnaf%20Firdaus&body=Hello%20Kenzie%2C%0A%0AI%E2%80%99d%20like%20to%20discuss%20your%20work%20and%20explore%20potential%20opportunities.%20Please%20let%20me%20know%20when%20you're%20available%20for%20a%20short%20conversation.%0A%0ABest%20regards%2C%0A"
                     className="group flex items-center gap-3 text-foreground hover:text-muted-foreground transition-colors duration-300"
                   >
-                    <span className="text-base sm:text-lg"><a href="https://www.linkedin.com/in/alfirdaous">Get in touch</a></span>
+                    <span className="text-base sm:text-lg">Get in touch</span>
                     <svg
                       className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
                       fill="none"
@@ -290,7 +290,7 @@ export default function Home() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { name: "Instagram", handle: "@alfirdaous", url: "instagram.com/_alfirdaous" },
+                  { name: "Instagram", handle: "@alfirdaous", url: "https://www.instagram.com/_alfirdaous" },
                   { name: "YouTube", handle: "KAFprojects", url: "https://www.youtube.com/@kenziemrhsnym" },
                   { name: "LinkedIn", handle: "Kenzie A. Firdaus", url: "https://www.linkedin.com/in/alfirdaous" },
                   { name: "GitHub", handle: "@alfirda0us", url: "https://github.com/alfirda0us" },
@@ -350,19 +350,21 @@ export default function Home() {
               </button>
 
               <button className="group p-3 rounded-lg border border-border hover:border-muted-foreground/50 transition-all duration-300">
-                <svg
-                  className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-colors duration-300"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+                <a href="https://www.linkedin.com/in/alfirdaous">
+                  <svg
+                    className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-colors duration-300"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
                   />
-                </svg>
+                  </svg>
+                </a>
               </button>
             </div>
           </div>
