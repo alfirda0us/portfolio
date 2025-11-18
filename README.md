@@ -1,49 +1,60 @@
 # Minimalist Portfolio Website
 
-A clean, modern portfolio website built with Next.js and Tailwind CSS, featuring smooth animations and dark/light theme support.
+A simple portfolio site built with Next.js + TypeScript and Tailwind CSS.
 
-## ✨ Features
+## Overview
+This project is a minimal personal portfolio showcasing projects and skills. It includes a global layout, a home page, and a small UI component set (including a toast system).
 
-- **Minimalist Design** - Clean typography with Geist font and strategic use of whitespace
-- **Responsive Layout** - Mobile-first design that works on all devices
-- **Theme Toggle** - Seamless dark/light mode switching
-- **Smooth Animations** - Subtle scroll-triggered animations and hover effects
-- **Modern Stack** - Built with Next.js 15, TypeScript, and Tailwind CSS
+## Features
+- Dark / light theme toggle
+- Reusable UI components in components/ui
+- Toast notifications via a provider and hook
+- Clean, minimal layout and responsive design
 
-## 🚀 Built With
+## Quick start
 
-- [Next.js](https://nextjs.org/) - React framework
-- [TypeScript](https://www.typescriptlang.org/) - Type safety
-- [Tailwind CSS](https://tailwindcss.com/) - Styling
-- [v0.dev](https://v0.dev/) - AI-powered development
+Prerequisites:
+- Node.js 16+ and npm (or yarn)
 
-## 📦 Getting Started
-
-\`\`\`bash
-# Clone the repository
-git clone https://github.com/felixmacaspac/v0-minimalist-portfolio.git
-
-# Install dependencies
+Install dependencies:
+```bash
 npm install
+```
 
-# Run development server
+Run development server:
+```bash
 npm run dev
-\`\`\`
+# Open http://localhost:3000
+```
 
-Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
+Build for production:
+```bash
+npm run build
+npm start
+```
 
-## 🎨 Customization
+Notes:
+- Add a .env file if the project requires environment variables.
+- If using a package manager other than npm, replace commands accordingly.
 
-The portfolio is designed to be easily customizable:
+## Where to edit
+- Home page content: app/page.tsx
+- Global layout & metadata: app/layout.tsx
+- Global styles: app/globals.css
+- UI components: components/ui
+- Toast hook: hooks/use-toast.ts
+- Helpers/utils: lib/utils.ts
+- Next config: next.config.mjs
 
-- Update personal information in `app/page.tsx`
-- Modify colors and styling in `app/globals.css`
-- Add or remove sections as needed
+## Recommended additions
+- Add CONTRIBUTING.md for contribution rules
+- Add LICENSE if you want to specify reuse terms
+- Include screenshots or demo link for better presentation
 
-## 📄 License
+## Author
+**Kenzie Ahnaf Firdaus**  
+GitHub: [github.com/alfirda0us](https://github.com/alfirda0us)  
+LinkedIn: [linkedin.com/in/alfirdaous](https://www.linkedin.com/in/alfirda0us)
 
-Open source and available under the [MIT License](LICENSE).
-
----
-
-**Built with ❤️ using [v0.dev](https://v0.dev) by Felix Macaspac**
+## License
+All projects in this repository are for educational and portfolio purposes.  
