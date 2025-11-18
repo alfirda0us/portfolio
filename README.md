@@ -52,7 +52,6 @@ Notes:
 - Include screenshots or demo link for better presentation
 
 ## Author
-**Kenzie Ahnaf Firdaus**  
 GitHub: [github.com/alfirda0us](https://github.com/alfirda0us)  
 LinkedIn: [linkedin.com/in/alfirdaous](https://www.linkedin.com/in/alfirda0us)
 

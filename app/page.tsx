@@ -101,7 +101,7 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="text-sm text-muted-foreground font-mono">EXPERTISE</div>
                 <div className="flex flex-wrap gap-2">
-                  {["Flutter", "React", "Kodular", "UI/UX", "Canva", "Teaching"].map((skill) => (
+                  {["Flutter", "React", "JavaScript", "Tailwind", "Graphic Design", "UI/UX"].map((skill) => (
                     <span
                       key={skill}
                       className="px-3 py-1 text-xs border border-border rounded-full hover:border-muted-foreground/50 transition-colors duration-300"
@@ -220,10 +220,10 @@ export default function Home() {
                   areas: "Flutter • Kodular • Thunkable",
                 },
                 {
-                  title: "Co-Founder: ن Moslem Wear",
-                  excerpt: "Co-founded Muslim fashion brand with focus on elegant Islamic streetwear targeting youth market.",
-                  focus: "Entrepreneurship",
-                  areas: "Branding • Marketing • Social Media",
+                  title: "Web Development",
+                  excerpt: "Created websites and blogs using WordPress and static site generators for personal and educational use.",
+                  focus: "Web Dev",
+                  areas: "WordPress • HTML/CSS • JavaScript",
                 },
               ].map((item, index) => (
                 <article
