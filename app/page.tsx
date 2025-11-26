@@ -92,7 +92,7 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="text-sm text-muted-foreground font-mono">FOCUS AREAS</div>
                 <div className="space-y-2">
-                  <div className="text-foreground">Education & Development</div>
+                  <div className="text-foreground">Junior Software Developer</div>
                   <div className="text-muted-foreground">IDN Boarding School</div>
                   <div className="text-xs text-muted-foreground">2020 — Present</div>
                 </div>
@@ -215,22 +215,22 @@ export default function Home() {
                   areas: "Flutter • Kodular • Thunkable",
                 },
                 {
-                  title: "Web Development",
-                  excerpt: "Created websites and blogs using WordPress and static site generators for work and personal use.",
-                  focus: "Web Dev",
-                  areas: "WordPress • HTML/CSS • JavaScript",
-                },
-                {
-                  title: "Teaching Technology",
-                  excerpt: "Teaching Canva, WordPress, and app development at multiple institutions across Indonesia and Thailand.",
-                  focus: "Education",
-                  areas: "Canva • WordPress • App Dev",
-                },
-                {
                   title: "UI/UX & Design",
                   excerpt: "Competed in UI/UX competitions and designed mobile interfaces for cultural preservation and community apps.",
                   focus: "Design",
                   areas: "Figma • Mobile Design • Branding",
+                },
+                {
+                  title: "Web Development",
+                  excerpt: "Created websites and blogs using WordPress and static site generators for work and personal use.",
+                  focus: "Development",
+                  areas: "WordPress • HTML/CSS • JavaScript",
+                },
+                {
+                  title: "Training Technology",
+                  excerpt: "Training Canva, WordPress, and app development at multiple institutions across Indonesia and even Thailand.",
+                  focus: "Education",
+                  areas: "Canva • WordPress • App Dev",
                 },
               ].map((item, index) => (
                 <article
@@ -268,6 +268,7 @@ export default function Home() {
 
                 <div className="space-y-4">
                   <Link
+                    target="_blank"
                     href="mailto:kenzie.ahnaffirdaus@gmail.com?subject=Portfolio%20Inquiry%20%E2%80%93%20Kenzie%20Ahnaf%20Firdaus&body=Hello%20Kenzie%2C%0A%0AI%E2%80%99d%20like%20to%20discuss%20your%20work%20and%20explore%20potential%20opportunities.%20Please%20let%20me%20know%20when%20you're%20available%20for%20a%20short%20conversation.%0A%0ABest%20regards%2C%0A"
                     className="group flex items-center gap-3 text-foreground hover:text-muted-foreground transition-colors duration-300"
                   >
