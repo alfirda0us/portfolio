@@ -128,71 +128,78 @@ export default function Home() {
 
             <div className="space-y-8 sm:space-y-12">
               {[
-                {
-                  year: "2024",
-                  title: "SpeakUp App",
-                  category: "Mobile App",
-                  description: "Student-facing reporting system with teacher-side processing for addressing bullying incidents.",
-                  tech: ["Flutter", "Firebase", "UI/UX Design"],
-                },
-                {
-                  year: "2024",
-                  title: "EcoBoost App",
-                  category: "Mobile App",
-                  description: "Environmental awareness app for students to track and promote sustainable actions.",
-                  tech: ["Flutter", "Firebase", "UI/UX Design"],
-                },
-                {
-                  year: "2024",
-                  title: "Simulator Dunia Paralel: Mesin Waktu Gagal",
-                  category: "Adventure Game",
-                  description: "Nonlinear adventure game featuring parallel worlds, branch logic, inventory system, enemy AI, and multiple endings.",
-                  tech: ["Game Development", "Story Design", "Interactive Logic"],
-                },
-                {
-                  year: "2023",
-                  title: "UI/UX Competition - ICOM FEST",
-                  category: "Design Project",
-                  description: "Mobile UI/UX design for cultural preservation app with theme 'Innovating Nusantara: Connecting Tradition and Technology'.",
-                  tech: ["Figma", "UI Design", "Cultural Design"],
-                },
-                {
-                  year: "2022",
-                  title: "Multiple App Prototypes",
-                  category: "Various Projects",
-                  description: "Built NameCard App, Find My Age App, Talk To Me App, and Super Calculator using Kodular and Thunkable.",
-                  tech: ["Kodular", "Thunkable", "App Development"],
-                },
+              {
+                year: "2025",
+                title: "LifeSkill Intelligence Website",
+                category: "Web Development",
+                description: "Official website for LifeSkill Intelligence, a company empowering youth through emotional intelligence and soft skills training. Central platform for programs, educational articles, and coaching services.",
+                tech: ["Web Development", "WordPress"],
+              },
+              {
+                year: "2025",
+                title: "IDN Minimagz",
+                category: "Graphic Design",
+                description: "Graphic designer for IDN Minimagz, a storytelling project documenting monthly and annual activities at IDN Boarding School through visual content and publications.",
+                tech: ["Graphic Design", "Publication", "Visual Storytelling"],
+              },
+              {
+                year: "2024",
+                title: "IDN JHS Student Council - Multimedia Division",
+                category: "Leadership",
+                description: "Chairman of Multimedia & Photography Division, managing school documentation, content creation, and social media visuals. Coordinated photo and video coverage for events and collaborated with other divisions to enhance school branding.",
+                tech: ["Photography", "Content Creation", "Social Media", "Leadership"],
+              },
+              {
+                year: "2024",
+                title: "SpeakUp App",
+                category: "Mobile App",
+                description: "Student-facing reporting system with teacher-side processing for addressing bullying incidents.",
+                tech: ["Flutter", "Firebase", "UI/UX Design"],
+              },
+              {
+                year: "2024",
+                title: "EcoBoost App",
+                category: "Mobile App",
+                description: "Environmental awareness app for students to track and promote sustainable actions.",
+                tech: ["Flutter", "Firebase", "UI/UX Design"],
+              },
+              {
+                year: "2022",
+                title: "Masjid Raudhatul Jannah Website",
+                category: "Web Development",
+                description: "Designed and launched official mosque website providing easy access to information for the Bekasi Timur community. Features include prayer schedules, event announcements, gallery, and donation information.",
+                tech: ["Web Development", "Website Design"],
+              },
               ].map((project, index) => (
-                <div
-                  key={index}
-                  className="group grid lg:grid-cols-12 gap-4 sm:gap-8 py-6 sm:py-8 border-b border-border/50 hover:border-border transition-colors duration-500"
-                >
-                  <div className="lg:col-span-2">
-                    <div className="text-xl sm:text-2xl font-light text-muted-foreground group-hover:text-foreground transition-colors duration-500">
-                      {project.year}
-                    </div>
-                  </div>
-
-                  <div className="lg:col-span-6 space-y-3">
-                    <div>
-                      <h3 className="text-lg sm:text-xl font-medium">{project.title}</h3>
-                      <div className="text-muted-foreground text-sm">{project.category}</div>
-                    </div>
-                    <p className="text-muted-foreground leading-relaxed max-w-lg">{project.description}</p>
-                  </div>
-
-                  <div className="lg:col-span-4 flex flex-wrap gap-2 lg:justify-end mt-2 lg:mt-0">
-                    {project.tech.map((tech) => (
-                      <span
-                        key={tech}
-                        className="px-2 py-1 text-xs text-muted-foreground rounded group-hover:border-muted-foreground/50 transition-colors duration-500"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
+              <div
+                key={index}
+                className="group grid lg:grid-cols-12 gap-4 sm:gap-8 py-6 sm:py-8 border-b border-border/50 hover:border-border transition-colors duration-500"
+              >
+                <div className="lg:col-span-2">
+                <div className="text-xl sm:text-2xl font-light text-muted-foreground group-hover:text-foreground transition-colors duration-500">
+                  {project.year}
                 </div>
+                </div>
+
+                <div className="lg:col-span-6 space-y-3">
+                <div>
+                  <h3 className="text-lg sm:text-xl font-medium">{project.title}</h3>
+                  <div className="text-muted-foreground text-sm">{project.category}</div>
+                </div>
+                <p className="text-muted-foreground leading-relaxed max-w-lg">{project.description}</p>
+                </div>
+
+                <div className="lg:col-span-4 flex flex-wrap gap-2 lg:justify-end mt-2 lg:mt-0">
+                {project.tech.map((tech) => (
+                  <span
+                  key={tech}
+                  className="px-2 py-1 text-xs text-muted-foreground rounded group-hover:border-muted-foreground/50 transition-colors duration-500"
+                  >
+                  {tech}
+                  </span>
+                ))}
+                </div>
+              </div>
               ))}
             </div>
           </div>
