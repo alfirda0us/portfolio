@@ -132,42 +132,42 @@ export default function Home() {
                 year: "2025",
                 title: "LifeSkill Intelligence Website",
                 category: "Web Development",
-                description: "Official website for LifeSkill Intelligence, a company empowering youth through emotional intelligence and soft skills training. Central platform for programs, educational articles, and coaching services.",
+                description: "Official website for LifeSkill Intelligence, a company empowering youth through emotional intelligence and soft skills training.",
                 tech: ["Web Development", "WordPress"],
               },
               {
                 year: "2025",
                 title: "IDN Minimagz",
                 category: "Graphic Design",
-                description: "Graphic designer for IDN Minimagz, a storytelling project documenting monthly and annual activities at IDN Boarding School through visual content and publications.",
-                tech: ["Graphic Design", "Publication", "Visual Storytelling"],
+                description: "Graphic designer for IDN Minimagz, a storytelling project documenting monthly and annual activities at IDN Boarding School.",
+                tech: ["Graphic Design", "Visual Storytelling"],
               },
               {
                 year: "2024",
-                title: "IDN JHS Student Council - Multimedia Division",
-                category: "Leadership",
-                description: "Chairman of Multimedia & Photography Division, managing school documentation, content creation, and social media visuals. Coordinated photo and video coverage for events and collaborated with other divisions to enhance school branding.",
-                tech: ["Photography", "Content Creation", "Social Media", "Leadership"],
-              },
-              {
-                year: "2024",
-                title: "SpeakUp App",
+                title: "SpeakUp - Mobile App",
                 category: "Mobile App",
                 description: "Student-facing reporting system with teacher-side processing for addressing bullying incidents.",
-                tech: ["Flutter", "Firebase", "UI/UX Design"],
+                tech: ["Flutter", "UI/UX Design", "Firebase"],
               },
               {
                 year: "2024",
-                title: "EcoBoost App",
+                title: "Chairman of Multimedia Division",
+                category: "Leadership",
+                description: "Chairman of Multimedia & Photography Division, managing school documentation, and social media visuals.",
+                tech: ["Photography", "Social Media"],
+              },
+              {
+                year: "2024",
+                title: "EcoBoost - Mobile App",
                 category: "Mobile App",
                 description: "Environmental awareness app for students to track and promote sustainable actions.",
-                tech: ["Flutter", "Firebase", "UI/UX Design"],
+                tech: ["Flutter", "UI/UX Design", "Firebase"],
               },
               {
                 year: "2022",
                 title: "Masjid Raudhatul Jannah Website",
                 category: "Web Development",
-                description: "Designed and launched official mosque website providing easy access to information for the Bekasi Timur community. Features include prayer schedules, event announcements, gallery, and donation information.",
+                description: "Designed and launched official mosque website providing easy access to information for the Bekasi Timur community.",
                 tech: ["Web Development", "Website Design"],
               },
               ].map((project, index) => (
@@ -234,7 +234,7 @@ export default function Home() {
                   areas: "WordPress • HTML/CSS • JavaScript",
                 },
                 {
-                  title: "Training Technology",
+                  title: "Tech Trainer",
                   excerpt: "Training Canva, WordPress, and app development at multiple institutions across Indonesia and even Thailand.",
                   focus: "Education",
                   areas: "Canva • WordPress • App Dev",
@@ -298,10 +298,10 @@ export default function Home() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { name: "Instagram", handle: "@alfirdaous", url: "https://www.instagram.com/_alfirdaous" },
-                  { name: "YouTube", handle: "KAFprojects", url: "https://www.youtube.com/@kenziemrhsnym" },
-                  { name: "LinkedIn", handle: "Kenzie A. Firdaus", url: "https://www.linkedin.com/in/alfirdaous" },
-                  { name: "GitHub", handle: "@alfirda0us", url: "https://github.com/alfirda0us" },
+                  { name: "Instagram", handle: "@alfirdaous", url: "https://www.instagram.com/_alfirdaous", target: "_blank" },
+                  { name: "YouTube", handle: "KAFprojects", url: "https://www.youtube.com/@kenziemrhsnym", target: "_blank"  },
+                  { name: "LinkedIn", handle: "Kenzie A. Firdaus", url: "https://www.linkedin.com/in/alfirdaous", target: "_blank"  },
+                  { name: "GitHub", handle: "@alfirda0us", url: "https://github.com/alfirda0us",  target: "_blank"  },
                 ].map((social) => (
                   <Link
                     key={social.name}
@@ -358,7 +358,7 @@ export default function Home() {
               </button>
 
               <button className="group p-3 rounded-lg border border-border hover:border-muted-foreground/50 transition-all duration-300">
-                <a href="https://www.linkedin.com/in/alfirdaous">
+                <a href="https://www.linkedin.com/in/alfirdaous"  target="_blank" >
                   <svg
                     className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-colors duration-300"
                     fill="none"
